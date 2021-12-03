@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Bebas Neue Book";
+  src: url("fonts/bebasneue-book-webfont.woff2") format("woff2"),
+  url("fonts/bebasneue-book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  }
+
+* {
+  background: rgb(43,42,48);
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  /* border: solid red 1px; */
+  width: 518px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.timer {
+
+
+  border: solid green 1px;
+  width: 400px;
+  text-align: center;
+  font-family: 'Bebas Neue Book';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 196px;
+  padding: 0;
+  line-height: 0px;
+
+}
+
+
+
+.start-stop-button {
+  position: flex;
+  border: none;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.6em
+}
